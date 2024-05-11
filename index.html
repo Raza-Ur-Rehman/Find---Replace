@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <h2>Find and Replace Game</h2>
+        <textarea placeholder="Enter a paragrpah" id="values" class="input" cols="30" rows="10"></textarea>
+        <input placeholder="Enter a word which do you find?" type="text" class="input" id="find">
+        <input placeholder="Replace word" class="input" type="text" id="replace">
+        <button onclick="findReplace();">Replace</button>
+        <div class="para_box">
+            <p id="userpara"></p>
+            <p id="update"></p>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
