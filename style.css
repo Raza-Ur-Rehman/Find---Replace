@@ -50,5 +50,9 @@ body {
     border-radius: 25px;
 }
 .para_box {
-    background-color: #fff;
+    padding: 5px;
+    font-size: 14px;
+}
+#update {
+    color: #fff;
 }
