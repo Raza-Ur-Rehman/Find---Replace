@@ -51,8 +51,9 @@ body {
 }
 .para_box {
     padding: 5px;
-    font-size: 14px;
+    font-size: 18px;
 }
 #update {
+    margin-top: 8px;
     color: #fff;
 }
